@@ -9,12 +9,9 @@ var usersRouter = require('./routes/users');
 var moodle_client = require("moodle-client");
 
 moodle_client.init({
-    wwwroot: "https://cognosonline-sandbox.mrooms.net/",
-    token: "b541ec3e8913b03d2aeab9fca72ceeb6"
-    // funka wwwroot: "https://campus.edem.es/",
-    //token: "8996c20169265c969db451e3d646738d"
-    //wwwroot: "https://campus.edem.es/",
-    //token: "8996c20169265c969db451e3d646738d"
+    wwwroot: "xxxxxxxxxxx",
+    token: "xxxxxxxxxxxx"
+
 }).then(function(client) {
     return do_something(client);
 
